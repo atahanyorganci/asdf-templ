@@ -5,7 +5,7 @@ Testing Locally:
 ```shell
 asdf plugin test <plugin-name> <plugin-url> [--asdf-tool-version <version>] [--asdf-plugin-gitref <git-ref>] [test-command*]
 
-# TODO: adapt this
+# TODO: this is probably right but this repo is tested with `mise` not `asdf`
 asdf plugin test templ https://github.com/atahanyorganci/asdf-templ.git "templ --help"
 ```
 
